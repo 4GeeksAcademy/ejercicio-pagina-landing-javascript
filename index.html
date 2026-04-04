@@ -12,14 +12,20 @@
     <title>Landing Page - Start Bootstrap Theme</title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
     <!-- Custom CSS -->
     <link href="css/landing-page.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet"
+        type="text/css">
+
+    <!--Font Aweasome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -32,202 +38,128 @@
 
 <body>
 
-    <!-- Navigation -->
-    <nav class="navbar navbar-default navbar-fixed-top topnav" role="navigation">
-        <div class="container topnav">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand topnav" href="#">Start Bootstrap</a>
-            </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <a href="#about">About</a>
-                    </li>
-                    <li>
-                        <a href="#services">Services</a>
-                    </li>
-                    <li>
-                        <a href="#contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
+    <header>
+
+        <div class="header-top">
+            <h4>Start Bootstrap</h4>
+            <button>Sign in</button>
         </div>
-        <!-- /.container -->
-    </nav>
 
-
-    <!-- Header -->
-    <a name="about"></a>
-    <div class="intro-header">
-        <div class="container">
-
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="intro-message">
-                        <h1>Landing Page</h1>
-                        <h3>A Template by Start Bootstrap</h3>
-                        <hr class="intro-divider">
-                        <ul class="list-inline intro-social-buttons">
-                            <li>
-                                <a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
-                            </li>
-                            <li>
-                                <a href="https://github.com/IronSummitMedia/startbootstrap" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
-                            </li>
-                            <li>
-                                <a href="#" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">Linkedin</span></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
+        <div class="sign-up-container">
+            <h1>Build a landing page for your business or <br> project and generate more leads!</h1>
+            <div class="sign-up-panel">
+                <input type="email" placeholder="Enter your e-mail...">
+                <button id="signup">Sign up!</button>
             </div>
-
         </div>
-        <!-- /.container -->
 
-    </div>
-    <!-- /.intro-header -->
+    </header>
 
-    <!-- Page Content -->
+    <main>
 
-	<a  name="services"></a>
-    <div class="content-section-a">
+        <div class="main-top">
+            <div class="info-panel">
+                <i class="fa-solid fa-display"></i>
+                <h1>Fully Responsive</h1>
+                <p>This theme will look great on any <br> device, no matter the size!</p>
+            </div>
+            <div class="info-panel">
+                <i class="fa-regular fa-layer-group"></i>
+                <h1>Bootstrap 4 Ready</h1>
+                <p>Featuring the latest build of the <br> new Bootstrap 4 framework!</p>
+            </div>
+            <div class="info-panel">
+                <i class="fa-solid fa-circle-check"></i>
+                <h1>Easy to Use</h1>
+                <p>Ready to use with your own <br> content, or customize de source files!</p>
+            </div>
+        </div>
 
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-5 col-sm-6">
-                    <hr class="section-heading-spacer">
-                    <div class="clearfix"></div>
-                    <h2 class="section-heading">Death to the Stock Photo:<br>Special Thanks</h2>
-                    <p class="lead">A special thanks to <a target="_blank" href="http://join.deathtothestockphoto.com/">Death to the Stock Photo</a> for providing the photographs that you see in this template. Visit their website to become a member.</p>
+        <div class="main-center">
+            <div class="little-info-panel">
+                <h1>Fully Responsive <br> Design</h1>
+                <p>When you use a theme created by Start Bootstrap, you know that the theme will look greaton any device, whether it's a phone, tablet, or desktop the page will behave responsively!</p>
+            </div>
+            <img src="./img/bg-showcase-1.jpg" alt="">
+            <img src="./img/bg-showcase-2.jpg" alt="">
+            <div class="little-info-panel">
+                <h1>Updated For Bootstrap 4</h1>
+                <p>Newly improved and full of great utility classes, Bootstrap 4 is leading the max in mobile responsive web developent. All of the themes on Start Bootstrap are now using Bootstrap 4!</p>
+            </div>
+            <div class="little-info-panel">
+                <h1>Easy to Use & Customize</h1>
+                <p>Landing Page is just HTML and CSS with a splash of SCSS for users who demand some deeper automatization options. Out of the box, just add your content and images, and your new landing page will be ready to go!</p>
+            </div>
+            <img src="img/bg-showcase-3.jpg" alt="mar">
+        </div>
+
+        <div class="main-bottom">
+
+            <h1>What people are saying...</h1>
+            <div class="main-bottom-bottom">
+                <div class="photo-panel">
+                    <img id="img1" src="img/retrato-joven-sonriente_171337-11976.jpg.avif" alt="hombre">
+                    <h3>Fred S.</h3>
+                    <p>"This is fantastic! Thank you so much guys"</p>
                 </div>
-                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                    <img class="img-responsive" src="img/ipad.png" alt="">
+                <div class="photo-panel">
+                    <img src="./img/hombre-moreno-positiva-brazos-cruzados_1187-5797.jpg.avif" alt="hombre">
+                    <h3>James M.</h3>
+                    <p>"Bootstrap it's amazing, I've been using it for a while and it make everything much easier!"</p>
+                </div>
+                <div class="photo-panel">
+                    <img src="img/hombre-sonriendo-brazos-cruzados_1187-2903.jpg.avif" alt="hombre">
+                    <h3>George F.</h3>
+                    <p>"Thank you so much for working on this!"</p>
                 </div>
             </div>
 
         </div>
-        <!-- /.container -->
 
-    </div>
-    <!-- /.content-section-a -->
+    </main>
 
-    <div class="content-section-b">
-
-        <div class="container">
-
-            <div class="row">
-                <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
-                    <hr class="section-heading-spacer">
-                    <div class="clearfix"></div>
-                    <h2 class="section-heading">3D Device Mockups<br>by PSDCovers</h2>
-                    <p class="lead">Turn your 2D designs into high quality, 3D product shots in seconds using free Photoshop actions by <a target="_blank" href="http://www.psdcovers.com/">PSDCovers</a>! Visit their website to download some of their awesome, free photoshop actions!</p>
-                </div>
-                <div class="col-lg-5 col-sm-pull-6  col-sm-6">
-                    <img class="img-responsive" src="img/dog.png" alt="">
-                </div>
-            </div>
-
-        </div>
-        <!-- /.container -->
-
-    </div>
-    <!-- /.content-section-b -->
-
-    <div class="content-section-a">
-
-        <div class="container">
-
-            <div class="row">
-                <div class="col-lg-5 col-sm-6">
-                    <hr class="section-heading-spacer">
-                    <div class="clearfix"></div>
-                    <h2 class="section-heading">Google Web Fonts and<br>Font Awesome Icons</h2>
-                    <p class="lead">This template features the 'Lato' font, part of the <a target="_blank" href="http://www.google.com/fonts">Google Web Font library</a>, as well as <a target="_blank" href="http://fontawesome.io">icons from Font Awesome</a>.</p>
-                </div>
-                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                    <img class="img-responsive" src="img/phones.png" alt="">
-                </div>
-            </div>
-
-        </div>
-        <!-- /.container -->
-
-    </div>
-    <!-- /.content-section-a -->
-
-	<a  name="contact"></a>
-    <div class="banner">
-
-        <div class="container">
-
-            <div class="row">
-                <div class="col-lg-6">
-                    <h2>Connect to Start Bootstrap:</h2>
-                </div>
-                <div class="col-lg-6">
-                    <ul class="list-inline banner-social-buttons">
-                        <li>
-                            <a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
-                        </li>
-                        <li>
-                            <a href="https://github.com/IronSummitMedia/startbootstrap" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
-                        </li>
-                        <li>
-                            <a href="#" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">Linkedin</span></a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-
-        </div>
-        <!-- /.container -->
-
-    </div>
-    <!-- /.banner -->
-
-    <!-- Footer -->
     <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <ul class="list-inline">
-                        <li>
-                            <a href="#">Home</a>
-                        </li>
-                        <li class="footer-menu-divider">&sdot;</li>
-                        <li>
-                            <a href="#about">About</a>
-                        </li>
-                        <li class="footer-menu-divider">&sdot;</li>
-                        <li>
-                            <a href="#services">Services</a>
-                        </li>
-                        <li class="footer-menu-divider">&sdot;</li>
-                        <li>
-                            <a href="#contact">Contact</a>
-                        </li>
-                    </ul>
-                    <p class="copyright text-muted small">Copyright &copy; Your Company 2014. All Rights Reserved</p>
-                </div>
+
+        <div class="sign-up-container">
+            <h1>Ready to get started? Sign up now!</h1>
+            <div class="sign-up-panel">
+                <input type="email" placeholder="Enter your e-mail...">
+                <button id="signup">Sign up!</button>
             </div>
         </div>
+        <div class="footer-bottom">
+            <div class="footer-bottom-left">
+                <div class="footer-bottom-left-menu">
+                    <a href="" target="_blank" rel="noopener noreferrer">About</a>
+                    <p>·</p>
+                    <a href="" target="_blank" rel="noopener noreferrer">Contact</a>
+                    <p>·</p>
+                    <a href="" target="_blank" rel="noopener noreferrer">Terms of use</a>
+                    <p>·</p>
+                    <a href="" target="_blank" rel="noopener noreferrer">Whatever</a>
+                </div>
+                <div class="footer-bottom-left-copyright">
+                    <i class="fa-regular fa-copyright"></i>
+                    <p>Copyright 2026. All rights reserved.</p>
+                </div>
+            </div>
+            <div class="footer-bottom-right">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-square-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+            </div>
+        </div>
+
     </footer>
 
     <!-- jQuery -->
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
 
     <!-- Bootstrap Core JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
 
 </body>
 
